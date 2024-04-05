@@ -1,0 +1,117 @@
+/* QLabel 样式 */
+QLabel {
+    font-family: "Microsoft YaHei";/* 字体类型 */
+    border: 1px solid #CFCFCF; /* 标签边框 */
+    border-radius: 4px; /* 圆角边框 */
+    background-color: #FFFFFF; /* 背景颜色 */
+    padding: 2px; /* 内边距 */
+    color: #333333; /* 文字颜色 */
+}
+
+/* QPushButton 样式 */
+QPushButton {
+    border: 1px solid #B0B0B0; /* 按钮边框 */
+    border-radius: 4px; /* 圆角边框 */
+    background-color: #F0F0F0; /* 背景颜色 */
+    padding: 3px 6px; /* 内边距 */
+    color: #333333; /* 文字颜色 */
+    min-width: 50px; /* 按钮最小宽度 */
+}
+
+QPushButton:hover {
+    background-color: #E0E0E0; /* 鼠标悬停时的背景颜色 */
+}
+
+QPushButton:pressed {
+    background-color: #D0D0D0; /* 按钮按下时的背景颜色 */
+}
+
+/* QLineEdit 样式 */
+QLineEdit {
+    border: 1px solid #B0B0B0; /* 输入框边框 */
+    border-radius: 4px; /* 圆角边框 */
+    padding: 1px; /* 内边距 */
+    background-color: #FFFFFF; /* 背景颜色 */
+    color: #333333; /* 文字颜色 */
+}
+
+/* QScrollWidget 样式 */
+QScrollWidget {
+    border: none; /* 滚动容器无边框 */
+    background-color: #FFFFFF; /* 背景颜色 */
+}
+
+/* QTableWidget 样式 */
+QTableWidget {
+    border: 1px solid #B0B0B0; /* 表格边框 */
+    border-radius: 4px; /* 圆角边框 */
+    background-color: #FFFFFF; /* 背景颜色 */
+    alternate-background-color: #F0F0F0; /* 交替行背景颜色 */
+}
+
+QTableWidget::item {
+    padding: 2px; /* 单元格内边距 */
+    border: none; /* 单元格无边框 */
+}
+
+QTableWidget::item:selected {
+    background-color: #D0D0D0; /* 选中单元格背景颜色 */
+}
+
+/* QHeaderView 样式 */
+QHeaderView {
+    border: 1px solid #B0B0B0; /* 表头边框 */
+    border-radius: 4px; /* 圆角边框 */
+    background-color: #E0E0E0; /* 表头背景颜色 */
+}
+
+QHeaderView::section {
+    padding: 2px; /* 表头单元格内边距 */
+    background-color: #E0E0E0; /* 表头单元格背景颜色 */
+    color: #333333; /* 表头文字颜色 */
+}
+
+QHeaderView::section:hover {
+    background-color: #C0C0C0; /* 鼠标悬停时表头单元格背景颜色 */
+}
+
+/* QScrollBar 样式 */
+QScrollBar:vertical {
+    border: none; /* 滚动条无边框 */
+    background-color: #FFFFFF; /* 滚动条背景颜色 */
+    width: 15px; /* 滚动条宽度 */
+}
+
+QScrollBar:horizontal {
+    border: none; /* 滚动条无边框 */
+    background-color: #FFFFFF; /* 滚动条背景颜色 */
+    height: 15px; /* 滚动条高度 */
+}
+
+QScrollBar::handle:vertical, QScrollBar::handle:horizontal {
+    border: 1px solid #B0B0B0; /* 滚动条滑块边框 */
+    border-radius: 4px; /* 圆角边框 */
+    background-color: #D0D0D0; /* 滚动条滑块背景颜色 */
+}
+
+QScrollBar::handle:vertical:hover, QScrollBar::handle:horizontal:hover {
+    background-color: #C0C0C0; /* 鼠标悬停时滚动条滑块背景颜色 */
+}
+
+QScrollBar::add-line:vertical {
+    border: none; /* 滚动条增加按钮无边框 */
+    background-color: #F0F0F0; /* 滚动条增加按钮背景颜色 */
+    width: 15px; /* 滚动条增加按钮宽度 */
+    height: 15px; /* 滚动条增加按钮高度 */
+}
+
+QScrollBar::sub-line:vertical {
+    border: none; /* 滚动条减少按钮无边框 */
+    background-color: #F0F0F0; /* 滚动条减少按钮背景颜色 */
+    width: 15px; /* 滚动条减少按钮宽度 */
+    height: 15px; /* 滚动条减少按钮高度 */
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical, QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background-color: none; /* 滚动条页面区域无背景颜色 */
+}
